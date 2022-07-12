@@ -11,7 +11,7 @@ div {
 h1 {
     margin: 0;
     font-family: 'Dancing Script', cursive;
-    font-size: 0.25rem;
+    font-size: 6.25rem;
     opacity: 0.5;
     color: #3e9c87;
 }
@@ -28,7 +28,7 @@ h3 {
 }
 
 p {
-    margin: 0;
+    margin: 50px auto 0px auto;
     font-family: 'Merriweather', serif;
     font-size: 1.875rem;
     color: #3e9c87;
@@ -38,7 +38,7 @@ p {
 .topContainer {
     background-color: #e0ebe8;
     position: relative;
-    padding-top: 21.875rem;
+    padding-top: 8.875rem;
 }
 
 .middleContainer {
@@ -47,17 +47,27 @@ p {
 }
 
 .bottomContainer {
-    background-color: skyblue;
+    background-color: #4ab29b;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-class {
+    margin: auto 50px auto 50px;
+    text-decoration: none;
+    color: white;
 }
 
 .cloud1 {
     position: absolute;
-    top: 15.625rem;
-    right: 25rem;
+    top: 8.625rem;
+    right: 21rem;
 }
 
-.cloud1:hover {    
-    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+.cloud1:hover {
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
 }
 
 .cloud2 {
@@ -66,41 +76,41 @@ p {
 
 }
 
-.cloud2:hover {    
-    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+.cloud2:hover {
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
 }
 
 .land {
-    margin-top: 2.75rem;
+    margin-top: 4.75rem;
 
 }
 
-.land:hover {    
-    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+.land:hover {
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
 }
 
 .codeImg {
     width: 12rem;
     float: right;
     position: absolute;
-    right: 18.75rem;
+    right: 13.75rem;
     bottom: 3px;
 }
 
-.codeImg:hover {    
-    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+.codeImg:hover {
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
 }
 
 .sapImg {
     width: 15.625rem;
     float: left;
     position: absolute;
-    left: 18.75rem;
+    left: 13.75rem;
 
 }
 
-.sapImg:hover {    
-    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+.sapImg:hover {
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
 }
 
 .profileImg {
@@ -108,8 +118,8 @@ p {
     margin-top: 2.188rem;
 }
 
-.profileImg:hover {    
-    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+.profileImg:hover {
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
 }
 
 .skillDesc {
@@ -141,7 +151,7 @@ p {
 
 .get-intouch {
     width: 40%;
-    margin: auto;
+    margin: 3.125rem auto 3.125rem auto;
     /* font-weight: 300; */
 }
 
@@ -158,4 +168,3 @@ p {
     margin-top: 2.188rem;
     margin-bottom: 2.188rem;
 }
-
