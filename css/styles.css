@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+div {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    opacity: 0.5;
+    color: #3e9c87;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    margin: auto;
+    color: #3e9c87;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+p {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    color: #3e9c87;
+    opacity: 0.5;
+}
+
+.topContainer {
+    background-color: #e0ebe8;
+    position: relative;
+    padding-top: 350px;
+}
+
+.middleContainer {
+    background-color: #ffffff;
+    line-height: 2;
+}
+
+.bottomContainer {
+    background-color: skyblue;
+}
+
+.cloud1 {
+    position: absolute;
+    top: 250px;
+    right: 400px;
+}
+
+.cloud1:hover {    
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+
+.cloud2 {
+    position: absolute;
+    left: 350px;
+
+}
+
+.cloud2:hover {    
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+
+.land {
+    margin-top: 20px;
+
+}
+
+.land:hover {    
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+
+.codeImg {
+    width: 12rem;
+    float: right;
+    position: absolute;
+    right: 300px;
+    bottom: 3px;
+}
+
+.codeImg:hover {    
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+
+.sapImg {
+    width: 15.625rem;
+    float: left;
+    position: absolute;
+    left: 300px;
+
+}
+
+.sapImg:hover {    
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+
+.profileImg {
+    width: 9rem;
+    margin-top: 35px;
+}
+
+.profileImg:hover {    
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+
+.skillDesc {
+    width: 40%;
+    margin: auto;
+}
+
+.skill1 {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.skill2 {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.my-desc {
+    width: 20%;
+    margin: 35px auto 35px auto;
+
+}
+
+.hello-h2 {
+    margin-top: 35px;
+}
+
+.get-intouch {
+    width: 40%;
+    margin: auto;
+    /* font-weight: 300; */
+}
+
+.hori-row {
+    border-style: dotted;
+    border-width: 10px;
+    border-bottom: none;
+    width: 5%;
+    margin: auto;
+    color: #EAF6F6;
+}
+
+.class-topbottom35 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
